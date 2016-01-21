@@ -1,0 +1,22 @@
+{
+  "name": "martin.magakian",
+  "version": "1.0.0",
+  "description": "help me to signe some PDF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "add",
+    "image",
+    "to",
+    "pdf"
+  ],
+  "author": "martin.magakian@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "gm": "^1.21.1",
+    "pdf-image": "git+https://github.com/martin-magakian/node-pdf-image.git",
+    "yargs": "^3.32.0"
+  }
+}
