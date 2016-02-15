@@ -26,6 +26,7 @@ $ brew install imagemagick graphicsmagick ghostscript poppler
 ```
 $ node index.js --pdf /path/to/pdf_to_signe.pdf --signature /path/to/signe.jpg --initials /path/to/initials.jpg
 ```
+**! use full path !**
 
 Working Example
 =====

@@ -75,9 +75,9 @@ function addSingatureAndInitial(page1, page2){
         });
     }).then(()=>{
       console.log("[DELETE] - TMP page 1");
-      fs.unlinkSync(process.cwd()+"/"+page1);
+      fs.unlinkSync(page1);
       console.log("[DELETE] - TMP page 2");
-      fs.unlinkSync(process.cwd()+"/"+page2);
+      fs.unlinkSync(page2);
       console.log("done...");
     }).catch((err) => {
       console.log(err);
