@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "gm": "^1.21.1",
-    "pdf-image": "git+https://github.com/martin-magakian/node-pdf-image.git",
+    "pdf-image": "^1.1.0",
     "yargs": "^3.32.0"
   }
 }

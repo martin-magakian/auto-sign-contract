@@ -17,7 +17,9 @@ var argv = require('yargs')
     .argv;
 
 var pdfImage = new PDFImage(argv.pdf);
-pdfImage.setConvertOptions(["-density", "400", "-colorspace", "RGB", "-resize", "2331"]);
+pdfImage.setConvertOptions({"-density": "400", 
+                            "-colorspace": "RGB",
+                            "-resize": "2331"});
 
 
 
